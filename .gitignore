@@ -1,0 +1,62 @@
+# Dependencies
+node_modules
+
+# Build output
+dist
+dist-ssr
+
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+# Local env files
+*.local
+.env
+.env.*
+
+# Editor directories and files
+.vscode/*
+!.vscode/extensions.json
+.idea
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# OS files
+.DS_Store
+Thumbs.db
+.prettierignore
+
+# Challenge source files kept on host only
+design/
+style-guide.md
+preview.jpg
+*.sketch
+*.fig
+*.xd
+
+# Vite
+.vite
+
+# AI assistant config
+AGENTS.md
+CLAUDE.md
+
+# Frontend Mentor docs
+README-template.md
+README.md
+
+# Font files — only variable fonts are used; exclude static weight variants,
+# italic variable fonts, and font package metadata
+public/fonts/*/static/
+public/fonts/Fraunces/Fraunces-Italic-VariableFont_SOFT,WONK,opsz,wght.ttf
+public/fonts/Montserrat/Montserrat-Italic-VariableFont_wght.ttf
+public/fonts/*/OFL.txt
+public/fonts/*/README.txt

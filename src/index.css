@@ -1,0 +1,38 @@
+@import "tailwindcss";
+
+:root {
+  --page-bg: #f2eae2;
+  --page-surface: #fff;
+  --color-white: #fff;
+  --primary: #3d8168;
+  --primary-accent: #1a4032;
+
+  --text-muted: #6c7289;
+  --text-strong: #1c232b;
+  --fraunces: "Fraunces";
+  --montserrat: "Montserrat";
+}
+
+@font-face {
+  /* Literal name matches :root --fraunces / utilities; avoids var() in @font-face (patchy in some engines) */
+  font-family: "Fraunces";
+  src: url("/fonts/Fraunces/Fraunces-VariableFont_SOFT,WONK,opsz,wght.ttf")
+    format("truetype");
+}
+
+@font-face {
+  font-family: "Montserrat";
+  src: url("/fonts/Montserrat/Montserrat-VariableFont_wght.ttf")
+    format("truetype");
+}
+
+@theme {
+  --font-fraunces: "Fraunces", serif;
+  --font-montserrat: "Montserrat", sans-serif;
+  --color-primary: var(--primary);
+  --color-muted: var(--text-muted);
+}
+
+* {
+  box-sizing: border-box;
+}
