@@ -1,0 +1,30 @@
+.root {
+  display: flex;
+  justify-content: center;
+}
+
+.content {
+  max-width: min(90%, 22rem);
+  overflow: hidden;
+  background-color: var(--page-surface);
+  border-radius: 8px;
+}
+
+@media (max-width: 599px) {
+  .root {
+    margin-top: 80px;
+  }
+}
+
+@media (min-width: 600px) {
+  .root {
+    align-items: center;
+    min-height: 100vh;
+  }
+
+  .content {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    max-width: 37.5rem;
+  }
+}
