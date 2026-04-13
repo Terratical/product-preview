@@ -5,7 +5,7 @@ export default function Button() {
   return (
     <button className={styles.root}>
       <img className={styles.cartIcon} src={CartIcon} alt="" />
-      <span>Add to Cart</span>
+      <span className={styles.cta}>Add to Cart</span>
     </button>
   );
 }

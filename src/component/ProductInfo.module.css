@@ -13,27 +13,27 @@
 }
 
 .category {
+  font-family: var(--montserrat);
   font-size: 0.75rem;
   line-height: 120%;
   color: var(--muted);
   text-transform: uppercase;
   letter-spacing: 0.3125rem;
-  font-display: var(--font-montserrat);
 }
 
 .title {
+  font-family: var(--fraunces);
   font-size: 2rem;
   font-weight: 700;
   line-height: 100%;
-  font-display: var(--font-fraunces);
 }
 
 .description {
+  font-family: var(--montserrat);
   font-size: 0.875rem;
   font-weight: 500;
   line-height: 160%;
   color: var(--muted);
-  font-display: var(--font-montserrat);
 }
 
 .pricing {
@@ -45,15 +45,15 @@
 }
 
 .currentPrice {
+  font-family: var(--fraunces);
   font-size: 2rem;
   font-weight: 700;
   color: var(--primary);
-  font-display: var(--font-fraunces);
 }
 
 .formerPrice {
+  font-family: var(--montserrat);
   font-weight: 500;
   color: var(--muted);
   text-decoration: line-through;
-  font-display: var(--font-montserrat);
 }

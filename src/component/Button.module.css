@@ -3,7 +3,7 @@
   gap: 0.5rem;
   align-items: center;
   justify-content: center;
-  padding: 1rem 0;
+  padding: 1rem 2rem;
   color: white;
   background-color: var(--primary);
   border-radius: 8px;
@@ -15,4 +15,8 @@
 
 .cartIcon {
   max-width: 1.125rem;
+}
+
+.cta {
+  font-size: 0.875rem;
 }
